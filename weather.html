@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>    
+    <body>        
+        <p>How many days?</p>
+        <input id="input-days" value="3"/>
+        <button onclick="generate();">Generate</button>        
+        <div id="forecast"></div>
+    </body>  
+    
+    <script>
+    var forecast = document.getElementById("forecast");
+        
+    function generate() {        
+        var days = document.getElementById("input-days").value;
+        console.log("Days is " + days);
+        
+        // Creates an array with random temperatures and show it in the browser console.
+        var temperatures = [];
+        for (var index = 0; index < days; index++) {
+            temperatures.push(Math.floor(Math.random() * 20));
+        }        
+        console.log(temperatures);
+        
+        // Display each day's temperature on the screen.
+        for (var index = 0; index < temperatures.length; index++) {
+            var icon = document.createElement("img");
+            if (temperatures[index] > 10) {
+                icon.src = "https://clipartart.com/images/free-clipart-of-a-sun-8.png";
+            } else {
+                icon.src = "1.png";
+            }
+            forecast.appendChild(icon);
+            
+            var labelDay = document.createElement("p");
+            labelDay.innerHTML = "Day " + (index + 1);
+            forecast.appendChild(labelDay);
+            
+            var labelTemperature = document.createElement("p");
+            labelTemperature.innerHTML = temperatures[index];
+            forecast.appendChild(labelTemperature);
+        }
+    }        
+    </script>
+</html
