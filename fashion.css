@@ -1,0 +1,31 @@
+.kala {
+		text-align: center;
+		font-family: Josefin Sans; 
+		background-color: #F3F8F2;
+	}
+	
+	.karu {
+		text-align: center;
+		font-family: Josefin Sans;
+		font-size: 200%;
+		background-color: #8DAA9D;
+		border: 6px solid black;
+		padding: 30px;
+		margin: 12px;
+	}
+
+.table2 {
+  font-family: Josefin Sans;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table2 td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.table2 tr:nth-child(even) {
+  background-color: #8DAA9D;
+}
