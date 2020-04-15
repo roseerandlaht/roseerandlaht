@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	<body>
+		
+		<div id="layout-send">
+				<input id="input-message"/>
+            <button onclick="sendMessage();">Send</button>
+		</div>
+		
+		<div id ="chat"></div>
+		
+		
+		<script>
+			
+			var chat = document.getElementById("chat");
+			
+			//var message = "Hello, are you there?";
+			//var isOnline = true; 
+			//var age = 17;
+			
+			var messages = [];
+			messages.push("How you doin??");
+			messages.push("Goodbye");
+			
+			for (var index = 0; index < messages.length; index++) {
+				createMessageOnScreen(messages[index]);
+			}
+			
+			function createMessageOnScreen(text){
+				var icon = document.createElement("img");
+				icon.src = "1.jpg";
+				chat.appendChild(icon);
+				
+				//var time = document.createElement("p");
+				//time.innerHTML = "11.40";
+				//chat.appendChild(time);
+				
+				var message = document.createElement("p");
+				message.innerHTML = text + " 11.40";
+				chat.appendChild(message);
+			}
+			
+			function sendMessage() {
+            var text = document.getElementById("input-message").value;
+            createMessageOnScreen(text);
+
+            document.getElementById("input-message").value = "";
+            }
+            
+			</script>
+		</body>
+	</html>

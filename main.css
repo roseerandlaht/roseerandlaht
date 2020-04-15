@@ -1,0 +1,30 @@
+img {
+	width: 10%;
+	clip-path: circle(50% at 50% 50%);
+}
+
+#layout-send {
+	background-color: #9EC6DD;
+	padding: 1em;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+p {
+        border-radius: 15px 50px 30px;
+        background: #9EC6DD;
+        padding: 1em;
+        width: 12em;
+        
+    }
+
+    @keyframes example {
+    from {background-color: pink;}
+    to {background-color: ;}
+    }
+
+body {
+    background: #E5F4F9;
+}
