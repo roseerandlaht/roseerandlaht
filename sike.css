@@ -1,0 +1,15 @@
+.kala {
+		text-align: center;
+		font-family: Josefin Sans; 
+		background-color: #AEC3B0;
+	}
+	
+	.karu {
+		text-align: center;
+		font-family: Josefin Sans;
+		font-size: 200%;
+		background-color: #598392;
+		border: 6px solid black;
+		padding: 30px;
+		margin: 12px;
+	}
