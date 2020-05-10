@@ -1,21 +1,20 @@
 .kala {
 		text-align: center;
-		font-family: Josefin Sans; 
-		background-color: #F3F8F2;
+		font-family: Montserrat; 
+		background-color: white;
 	}
 	
-	.karu {
-		text-align: center;
-		font-family: Josefin Sans;
-		font-size: 200%;
-		background-color: #8DAA9D;
-		border: 6px solid black;
-		padding: 30px;
-		margin: 12px;
+.karu {
+		background-color: #E1F2FE;
+		padding: 25px;
 	}
 
+.table1{
+    justify-content: space-between;
+}
+
 .table2 {
-  font-family: Josefin Sans;
+  font-family: Montserrat;
   border-collapse: collapse;
   width: 100%;
 }
@@ -27,5 +26,108 @@
 }
 
 .table2 tr:nth-child(even) {
-  background-color: #8DAA9D;
+  background-color: #E1F2FE;
+}
+
+.kalkun {
+    background-color: white;
+    padding: 
+}
+
+// Pen-specific styles
+    section, div {
+  height: 100%;
+}
+
+body { 
+  color: black;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 3.75rem;
+  margin:10rem 0;
+}
+
+// Pattern styles
+.container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
+}
+
+.left-half {
+  background: #E1F2FE;
+}
+
+.right-half {
+background: #E1F2FE;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 32px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #E1F2FE;
+  color: black;
+}
+
+.rebane {
+    background-color: #E1F2FE;
+}
+
+.appendbtn {
+        width: 200px;
+        height: 50px;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+    }
+
+.appendme {
+  
+  align-items: center;
+  height: 200px;
+  width: 1224px;  
+  background-color: #E1F2FE; 
+}
+
+.gorilla {
+    background-color: #FFFFFF; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-family: Montserrat;
 }
