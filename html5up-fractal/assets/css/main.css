@@ -2761,7 +2761,8 @@ input, select, textarea {
 		}
 
 			.spotlight .image img {
-				display: block;
+				background-color: black;
+                display: block;
 				border-radius: 100%;
 				width: 100%;
 			}
@@ -3640,7 +3641,7 @@ input, select, textarea {
 		#header button,
 		#header .button {
 			background-color: transparent;
-			color: #ffffff !important;
+			color: black;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
 
@@ -3742,7 +3743,7 @@ input, select, textarea {
 		}
 
 		#header .icon {
-			color: #b5d5f5;
+			color: black;
 		}
 
 		#header .image {
