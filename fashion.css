@@ -49,7 +49,7 @@ body {
 }
 
 h1 {
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   margin:10rem 0;
 }
 
@@ -109,6 +109,7 @@ background: #E1F2FE;
         height: 50px;
         background-color: #FFFFFF;
         border-radius: 12px;
+        font-family: Montserrat;
     }
 
 .appendme {
@@ -124,6 +125,9 @@ background: #E1F2FE;
     border: none;
     color: white;
     padding: 15px 32px;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
